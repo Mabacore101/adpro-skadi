@@ -48,3 +48,8 @@
 
 ### 2. /highest-gpa endpoint:
 ![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof4.png)
+
+
+
+## JMeter Measurement Comparison (Pre-Profiling vs Post-Profiling)
+After refactoring my code, I can see there's some improvements in JMeter measurements. For /all-student-name endpoint, the average time was 3040ms before profiling and now it's 1019ms after profiling. The speedup for /all-student-name endpoint is about 66,48%. That's more than half of the original time. For /highest-gpa endpoint, the average time was 345ms before profiling and now it's 591ms in JMeter. Now, the code should've improved because in IntelliJ profiling, the slowest method which is findStudentWithHighestGpa was 266ms before profiling and 200ms after profiling, which is around 24% speedup. Now, the discrepancy from JMeter measurement is due to internet connection. Before profiling, I ran it on campus WiFi and after profiling, I ran it on home WiFi. There's a huge difference in internet speed and latency between WiFis, so that could be the reason why the JMeter result didn't decrease after profiling.
