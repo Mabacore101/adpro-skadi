@@ -26,3 +26,25 @@
 
 ### 2. /highest-gpa endpoint:
 ![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/preprof4.png)
+
+## JMeter Post-Profiling Test Plan Result Screenshot
+
+## GUI:
+### 1. /all-student-name endpoint:
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof1.1.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof1.2.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof1.3.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof1.4.png)
+
+### 2. /highest-gpa endpoint:
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof2.1.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof2.2.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof2.3.png)
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof2.4.png)
+
+## CLI:
+### 1. /all-student-name endpoint:
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof3.png)
+
+### 2. /highest-gpa endpoint:
+![](https://github.com/Mabacore101/adpro-skadi/blob/main/images/postprof4.png)
